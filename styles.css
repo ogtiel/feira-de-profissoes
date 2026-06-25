@@ -132,8 +132,9 @@ h1 {
 }
 
 .btn-secondary {
-  border: 1px solid var(--border);
-  background: rgba(255, 255, 255, 0.03);
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  color: white;
+  box-shadow: 0 10px 30px rgba(46, 198, 255, 0.2);
 }
 
 .hero-card {
